@@ -1,7 +1,5 @@
 <?php if ($isCurrent): ?>
-    <a class="item"><?= $title ?></a>
+    <a class="item" id="<?=$pageNumber?>" style="color: red;"><?=$title?></a>
 <?php else: ?>
-
-    <a href="<?= $url ?>" class="item"><?= $title ?></a>
-
-<?php endif ?>
+    <a class="item" id="<?=$pageNumber?>"><?=$title?></a>
+<?php endif?>
