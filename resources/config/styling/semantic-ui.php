@@ -21,10 +21,10 @@ return [
             'add_class:secondary',
             ['prepend_text' => '<i class="erase icon"></i>&nbsp;']
         ],
-    'compound_part#form' => 'add_class:ui form inline fields',
-    'compound_part#control_container' => 'add_class: fields inline',
+    'compound_part#form' => 'add_class:ui form inline fields small',
+    'compound_part#control_container' => 'add_class: fields inline small',
     'template' => [
         ['override_template' => ['themes/semantic-ui', ['size' => $size]]]
     ],
-    'tag:table' => 'add_class: ui table celled structured',
+    'tag:table' => 'add_class: ui table celled structured small',
 ];
