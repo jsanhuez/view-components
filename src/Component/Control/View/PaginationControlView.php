@@ -62,7 +62,8 @@ class PaginationControlView extends TemplateView
         return $this->getRenderer()->render($this->linkTemplateName, [
             'isCurrent' => $this->getControl()->getCurrentPage() == $pageNumber,
             'url' => $this->makeUrl($pageNumber),
-            'title' => $title ?: (string)$pageNumber
+            'title' => $title ?: (string)$pageNumber, 
+            'pageNumber' => $pageNumber,
         ]);
     }
 
