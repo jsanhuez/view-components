@@ -14,7 +14,7 @@ if ($component->getLinkTemplateName() === 'controls/pagination/link') {
     $component->setLinkTemplateName('themes/semantic-ui/controls/pagination/link');
 }
 ?>
-<nav data-role="control-container" data-control="pagination">
+<nav data-role="control-container" data-control="pagination" style="display: none;">
     <div class="ui pagination menu">
         <?= $component->renderLink(1, '«') ?>
 
