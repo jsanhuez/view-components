@@ -65,8 +65,8 @@
   },
   "support": {
     "email": "mail@vitaliy.in",
-    "source": "https://github.com/view-components/view-components",
-    "issues": "https://github.com/view-components/view-components/issues"
+    "source": "https://github.com/jsanhuez/view-components",
+    "issues": "https://github.com/jsanhuez/view-components/issues"
   },
   "minimum-stability": "stable"
 }
