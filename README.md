@@ -40,7 +40,7 @@ The recommended way of installing the component is through [Composer](https://ge
 Run following command from your project folder:
 
 ```bash
-composer require view-components/view-components
+composer require jsanhuez/view-components
 ```
 
 #### Installing as Stand-alone Project
@@ -48,7 +48,7 @@ composer require view-components/view-components
 For running tests and demo-application bundled with this package on your system you need to install it as stand-alone project.
 
 ```
-composer create-project view-components/view-components
+composer create-project jsanhuez/view-components
 ```
 This is the equivalent of doing a git clone followed by a "composer install" of the vendors.
 Composer will automatically run 'post-create-project-cmd' command and that will call interactive installation.
